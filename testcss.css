@@ -1,0 +1,13 @@
+.chanson {
+	border: solid black 3px;
+}
+
+.divchanson {
+	text-decoration: none;
+	margin: 20%;
+}
+
+.imageCover {
+	width:4em;
+	float:left;
+}

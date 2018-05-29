@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+
+*{
+    font-family: 'Sunflower', sans-serif !important;
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    background-color: #DEDDDD;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.separator{
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #FF7A00;
+}
+
+/*img{
+    width: 40px;
+    height: 40px;
+}*/
+
+/* header */
+.header{
+    background-color: #5E5E5E;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.logo:hover{
+    color: #FF7A00;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: #FF7A00;
+}
+
+/* bannière */
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    /*position: fixed;*/
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom{
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover{
+    background-color: #FF7A00;
+}
+
+/* radio */
+#radio{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.radio{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.radio article{
+    margin-top: 1%;
+}
+
+.radio article h2{
+    text-align: center;
+}
+
+/* playlist */
+#playlist{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.playlist{
+    text-align: center;
+
+}
+
+.playlist article{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.playlist article h2{
+    text-align: center;
+}
+
+/*.centre{
+    text-align: center;
+}*/
+
+/* top france */
+#france{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.france{
+    text-align: center;
+
+}
+
+
+.france article{
+    margin-top: 1%;
+}
+
+.france article h2{
+    text-align: center;
+}
+/* nouveautés */
+#news{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.news{
+    text-align: center;
+
+}
+
+
+.news article{
+    margin-top: 1%;
+}
+
+.news article h2{
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    background-color: #5E5E5E;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu2{
+    float: left;
+}
+
+.menu2 a{
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu2 a:hover{
+    color: #FF7A00;
+}
+
+.social{
+    /*background-color: rgba(0,0,0,0.2);*/
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    float: right;
+}
+
+.social img{
+    width: 40px;
+    height: 40px;
+}
+
+.formulaire{
+    border: solid 4px #FF7A00;
+    background-color: #5E5E5E;
+    border-radius: 3em;
+    padding: 40px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.inputForm{
+    float: right;
+    color: #5E5E5E;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin: 20px 50px 20px 0;
+    width: 55%;
+}
+
+.labelsForm{
+    float: left;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 20px 0 20px 50px;
+}
+
+.radioForm{
+    margin-right: 20px;
+    color : #DEDDDD;
+}
+
+.clear{
+    clear: both;
+}
+
+.buttonForm{
+    float: right;
+    font-size: 1.5em;
+    margin: 20px 50px 20px 0;
+    border-radius: 5px;
+}
+
+.FormRecherche{
+    float: right;
+    height: 30px;
+}
+
+.BarreRecherche{
+    background-color: #DEDDDD;
+    border-radius: 15px;
+    margin-right: 20px;
+    height: 25px;
+}
+
+.Musique{
+    background-color: #5E5E5E;
+    color: #00A5C8;
+    border-bottom: solid 1px #FF7A00;
+    height: 50px;
+}

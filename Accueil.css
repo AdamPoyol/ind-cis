@@ -1,0 +1,241 @@
+body{
+	background-color: #555;
+	color: white;
+}
+header li {
+	display:inline;
+}
+#LogoMenu {
+	border:solid black 0.5em;
+	width:30%;
+	float:left;
+	margin-left:2%;
+}
+li a img {
+	width:100%;
+	height:5em;
+}
+header a {
+	text-decoration:none;
+	color:white;
+}
+h1 {
+	font-size:2em;
+}
+/*DiffÃƒÂ©rents menus-Premier bouton////////////////////////////////////////////////////*/
+#Connexion {
+	border:solid black 0.5em;
+	width:30%;
+	float:left;
+	height:5em;
+	line-height:1em;
+	text-align:center;
+	transition: background-color 0.4s;
+	background-color:#ff000091
+	}
+#Connexion:hover {
+	background-color:red;
+}
+#menu{
+	position: absolute;
+	margin-top: -10%;
+}
+
+#Musiques {
+	border:solid black 0.5em;
+	width:30%;
+	float:left;
+	height:5em;
+	line-height:1em;
+	text-align:center;
+	transition: background-color 0.4s;
+	background-color:#a56aaf;
+	position: fixed;
+}
+#Musiques:hover {
+	background-color:#ba0cd8;
+}
+#Playlist {
+	border:solid black 0.5em;
+	width:30%;
+	float:left;
+	height:5em;
+	line-height:1em;
+	text-align:center;
+	transition: background-color 0.4s;
+	background-color:#4eb5af
+	}
+#Playlist:hover {
+	background-color:#08daf5;
+}
+#Accueil {
+	border:solid black 0.5em;
+	width:30%;
+	float:left;
+	height:5em;
+	line-height:1em;
+	text-align:center;
+	transition: background-color 0.4s;
+	background-color:#bf2d5f
+	}
+#Accueil:hover {
+	background-color:#ff0057;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+#searchbar {
+	border:solid black 0.5em;
+	width:30%;
+	float:left;
+	height:5em;
+	line-height:5em;
+	text-align:center;
+	background-color:#44508c;
+	transition: background-color 0.4s;
+}
+.champ {
+	color:white;
+	background-color:#00000091;
+	border-radius:0.5em;
+	border:black;
+}
+.bouton {
+	background-color:grey;
+	border-radius:0.5em;
+	border:black;
+	transition:color 0.5s;
+}
+.bouton:hover{
+	color:white;
+	cursor:pointer;
+}
+#searchbar:hover {
+	background-color:#0000ffcc;
+}
+#BoutonMenu2 {
+	border:solid black 0.5em;
+	width:30%;
+	float:left;
+	height:5em;
+	line-height:1em;
+	text-align:center;
+	transition: background-color 0.4s;
+	background-color:#78a741b8
+	}
+#BoutonMenu2:hover {
+	background-color:#86f900c7;
+}
+
+#musiques{
+    background-color: #a56aaf;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #08daf5;
+	margin-left: 0%;
+	margin-top: 9%;
+}
+
+#playlist{
+    background-color: #44508c;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #a56aaf;
+}
+
+#semaine{
+    background-color: #eef109;
+    width: 25%;
+    height: 25%;
+    text-align: left;
+    color: #44508c;
+	margin-top: 0%;
+	margin-left: 7%;
+
+}
+
+#tendances{
+    background-color: #e20bac;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    color: #ee2105;
+	margin-top: -6%;
+	margin-left: 42%;
+
+}
+
+#mois{
+    background-color: #6da504;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    color: #ba0cd8;
+	margin-left: 75%;
+	margin-top: -6%;
+}
+
+#guetta{
+	width: 15%;
+	height: 220px;
+	position: center;
+	margin-left: 40%;
+	color: aqua;
+	background-color: #44508c;
+	background-image: url("guetta.jpg");
+	background-position: center center;
+}
+
+/*////////////////////////////////FOOTER////////////////////////////////////////*/
+
+#conteneurFoot{
+	border-top:solid #3a3535;
+	height:4em;
+	float:left;
+
+}
+#footergauche{
+	float:left;
+	width:80%;
+	text-align:center;
+	line-height:2em;
+}
+#footergauche li {
+	margin: 1%;
+	padding:1%;
+	padding-left:6%;
+	padding-right:6%;
+	background-color:rgb(41, 13, 7);
+	transition:background-color 0.4s;
+}
+#footergauche li:hover {
+	background-color:rgb(111, 38, 23);
+
+}
+#footerdroit {
+	float:right;
+	width:15%;
+	padding-left:2%;
+	padding-right:2%;
+
+}
+footer li {
+	display:inline;
+}
+#footerdroit img {
+	width:20%;
+	height:2em;
+}
+
+footer a {
+	text-decoration:none;
+	color:white;
+}
+
+@media only screen and (max-width: 1215px) {
+	#footerdroit img {
+	width:25%;
+	height:2em;
+	}
+}
